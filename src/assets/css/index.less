@@ -1,0 +1,39 @@
+@import './reset.less';
+@import './../fontsize/iconfont.less';
+
+@color: #fff;
+
+html, body, :global(#root) {
+  height: 100%;
+  background: #fff;
+}
+
+body {
+  font-size: 0.373rem !important;
+}
+
+// 弱提示样式重置
+.am-toast-notice-content {
+  .am-toast-text {
+    font-size: 0.3733rem; //28px
+    background: rgba(0, 0, 0, 0.8);
+  }
+}
+
+.am-toast.am-toast-mask {
+  display: block !important;
+  position: fixed;
+  max-width: 50%;
+  width: auto;
+  left: 50% !important;
+  top: 50% !important;
+  -webkit-transform: translateZ(1px);
+  .am-toast-notice {
+    transform: translate(-50%, -50%) !important;
+  }
+}
+
+
+.app{
+  font-size: 30px;
+}
